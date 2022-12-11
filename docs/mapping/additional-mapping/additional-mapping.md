@@ -185,3 +185,161 @@ Generally, <kbd>r</kbd> favors `ര`, `്ര` and `ർ`, while <kbd>R</kbd> fav
   - Word ending position after a consonant. Example: <kbd>t</kbd><kbd>h</kbd><kbd>r</kbd> → `തൃ`
   - Between two consonants. Example: <kbd>k</kbd><kbd>r</kbd><kbd>m</kbd><kbd>a</kbd> → `കൃമ`
   - Except, when second consonant is `യ`. Example: <kbd>n</kbd><kbd>t</kbd><kbd>h</kbd><kbd>r</kbd><kbd>y</kbd><kbd>a</kbd> → `ന്ത്ര്യ`
+  - <kbd>r</kbd><kbd>r</kbd> acts as <kbd>R</kbd>.
+
+| Malayalam | Mozhi | Unicode Character(s)       | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :------------------------- | :---------------- | :------------ |
+| ര         | ra    | RA                         | രണ്ട്               | raNT          |
+| കൃ         | kr    | KA, VOCALIC R              | പിതൃ                | pithr         |
+| ക്ര        | kra   | KA, VIRAMA, RA             | പ്രക്രിയ             | prakriya      |
+| ൽര        | lra   | CHILLU L, RA               | അയൽരാജ്യം            | ayalraajyam   |
+| ന്ര        | nra   | NA, VIRAMA, RA             | ന്രസ്ഥി              | nrasthhi      |
+| യ്‌ര        | yra   | YA, VIRAMA, ZWNJ, RA       | കൊയ്‌രാള              | koyraaLa      |
+| കർ        | kar   | KA, CHILLU RR              | വർഷം               | varsham       |
+| ർ         | r     | CHILLU RR                  | ർർർ               | r-r-r         |
+| ഋക        | rka   | VOCALIC R, KA              | ഋതു                | rthu          |
+| കൃഗ        | krga  | KA, VOCALIC R, GA          | പ്രവൃത്തി             | pravrthti     |
+| ക്ര്യ       | krya  | KA, VIRAMA, RA, VIRAMA, YA | സ്വാതന്ത്ര്യ           | svaathanthrya |
+| റ         | Ra    | RRA                        | പറ                | paRa          |
+| കറ്        | kaR   | KA, CHILLU RR, VIRAMA      | സാറ്                | saaR          |
+| കൃ         | kR    | KA, SIGN VOCALIC R         | നിരൃതി               | nirRthi       |
+| ഋ         | R     | VOCALIC R                  | ഋഷി                | Rshi          |
+| ക്റ        | kRa   | KA, VIRAMA, RRA            | എക്സ്റേ              | exRE          |
+| യ്റ        | yRa   | YA, VIRAMA, RA             | കെയ്റോ               | keyRO         |
+| ൻറ        | nRa   | CHILLU N, RRA              | എൻറോൾ              | enROL         |
+| കൃഗ        | kRga  | KA, VOCALIC R, GA          | പ്രവൃത്തി             | pravRthti     |
+| കൃയ        | kRya  | KA, VOCALIC R, YA          | നേതൃയോഗം              | nEthRyOgam    |
+| ഋക്        | rk    | VOCALIC R                  | ഋണം                | rNam          |
+| റ         | rra   | RRA                        | കറ                | karra         |
+| ക്റ        | krra  | KA, VIRAMA, RRA            | നെഹ്റു               | nehrru        |
+
+## Consonant Cluster
+
+Consonant Cluster in a word is the sequence of English letters representing more than one consonant. As an example, the word in Mozhi, `svam` has the consonant cluster: `sv` - for consonants `sa` and `va`. This definition is used in sections below.
+
+### Chillu or Conjunct
+
+A chillu-capable letter in a consonant cluster will not form a chillu if that cluster starts with the following sequence. (Please ignore the ending <kbd>a</kbd> which is to show the cluster in its simplest form):
+
+| Malayalam | Mozhi | Unicode Character(s) | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :------------------- | :---------------- | :------------ |
+| ണ്ട        | Nta   | NNA, VIRAMA, TA      | മണ്ട               | maNta         |
+| ണ്ഠ        | NTha  | NNA, VIRAMA, THA     | കുണ്ഠിതം              | kuNThitham    |
+| ണ്ഡ        | NDa   | NNA, VIRAMA, DDA     | പാണ്ഡു               | paaNDu        |
+| ണ്ഢ        | NDha  | NNA, VIRAMA, DDHA    | ണ്ഢ                | NDha          |
+| ണ്ണ        | NNa   | NNA, VIRAMA, NNA     | കണ്ണ്               | kaNN          |
+| ണ്മ        | Nma   | NNA, VIRAMA, MA      | വെണ്മ               | veNma         |
+| ണ്യ        | Nya   | NNA, VIRAMA, YA      | നാണ്യം               | naaNyam       |
+| ണ്വ        | Nva   | NNA, VIRAMA, VA      | കണ്വൻ              | kaNvan        |
+| ന്ത        | ntha  | NA, VIRAMA, TA       | തന്ത               | thantha       |
+| ന്ഥ        | nthha | NA, VIRAMA, THA      | പാന്ഥൻ              | paanthhan     |
+| ന്ദ        | nda   | NA, VIRAMA, DA       | നന്ദി               | nandi         |
+| ന്ധ        | ndha  | NA, VIRAMA, DHA      | അന്ധൻ              | andhan        |
+| ന്ന        | nna   | NA, VIRAMA, NA       | പിന്നെ               | pinne         |
+| ന്മ        | nma   | NA, VIRAMA, MA       | നന്മ               | nanma         |
+| ന്യ        | nya   | NA, VIRAMA, YA       | അന്യം               | anyam         |
+| ന്ര        | nra   | NA, VIRAMA, RA       | ന്രസ്ഥി              | nrasthhi      |
+| ന്വ        | nva   | NA, VIRAMA, VA       | അന്വയം              | anvayam       |
+| മ്പ        | mpa   | MA, VIRAMA, PA       | കമ്പം               | kampam        |
+| മ്മ        | mma   | MA, VIRAMA, MA       | അമ്മ               | amma          |
+| മ്യ        | mya   | MA, VIRAMA, YA       | രമ്യം               | ramyam        |
+| മ്ര        | mra   | MA, VIRAMA, RA       | കമ്രം               | kamram        |
+| മ്ല        | mla   | MA, VIRAMA, LA       | അമ്ലം               | amlam         |
+| മ്ള        | mLa   | MA, VIRAMA, LA       | അമ്ളം               | amLam         |
+| ര്യ        | rya   | RA, VIRAMA, YA       | ഭാര്യ               | bhaarya       |
+| ഋക        | rka   | VOCALIC R, KA        | ഋഗ്വേദം              | rgvaedam      |
+| ല്പ        | lpa   | LA, VIRAMA, PA       | അല്പം               | alpam         |
+| ല്യ        | lya   | LA, VIRAMA, YA       | അഹല്യ              | ahalya        |
+| ല്ല        | lla   | LA, VIRAMA, LA       | ഇല്ല               | illa          |
+| ള്യ        | Lya   | LLA, VIRAMA, YA      | ജാള്യം               | jaaLyam       |
+| ള്ള        | LLa   | LLA, VIRAMA, LLA     | ഉള്ള               | uLLa          |
+
+Following examples are for more than two consonants in a consonant cluster:
+
+| Malayalam | Mozhi  | Unicode Character(s)                   | Malayalam Example | Mozhi Example  |
+| :-------- | :----- | :------------------------------------- | :---------------- | :------------- |
+| ണ്ഡ്യ       | NDya   | NNA, VIRAMA, DDA, VIRAMA, YA           | പാണ്ഡ്യൻ             | paaNDyan       |
+| ന്ത്ര്യ      | nthrya | NA, VIRAMA, TA, VIRAMA, RA, VIRAMA, YA | സ്വാതന്ത്ര്യം           | svaathanthryam |
+
+### Exceptions
+
+If a consonant cluster starts as then consonant A will form chillu. Example:
+
+| Malayalam | Mozhi | Unicode Character(s)     | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :----------------------- | :---------------- | :------------ |
+| ൽപ്പ       | lppa  | CHILLU L, PA, VIRAMA, PA | അൽപ്പം              | alppam        |
+
+The `മ്യ` and `മ്ര` conjuncts are not formed if they follow `സം`. Example:
+
+| Malayalam | Mozhi | Unicode Character(s) | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :------------------- | :---------------- | :------------ |
+| സംയ        | samya | SA, ANUSVARA, YA     | സംയോഗം               | samyOgam      |
+| സംര        | samra | SA, ANUSVARA, RA     | സംരംഭം               | samrambham    |
+
+If `മ്യ` and `മ്ര` conjunct are required after `സ`, then please use `_` to make it the word initial consonant cluster. Examples:
+
+| Malayalam | Mozhi  | Unicode Character(s) | Malayalam Example | Mozhi Example |
+| :-------- | :----- | :------------------- | :---------------- | :------------ |
+| സമ്യ       | sa-mya | SA, MA, VIRAMA, YA   | സമ്യക്              | sa-myak       |
+| സമ്ര       | sa-mra | SA, MA, VIRAMA, RA   | സമ്രാട്ട്             | sa-mraattt    |
+
+While writing `ൻ്റ` conjunct by <kbd>r</kbd><kbd>t</kbd>.. sequence, <kbd>n</kbd> will produce Chillu-N as follows:
+
+| Malayalam | Mozhi | Unicode Character(s)  | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :-------------------- | :---------------- | :------------ |
+| ൻ്റ        | nta   | CHILLU N, VIRAMA, RRA | എൻ്റെ               | ente          |
+| ൻറ        | nrra  | CHILLU N, RRA         | എൻറോൾ              | enrrOL        |
+
+## Explicit Chandrakkala Instead of Chillu
+
+The <kbd>\`</kbd> (back quote) character can be used to get *chandrakkala* form instead of a *chillu* form. It can produce *chandrakkala* after U-sign as well. If <kbd>\`</kbd> is placed between two consonants, it would insert a [ZWNJ](https://en.wikipedia.org/wiki/Zero-width_non-joiner) after the *virama* to make the *chandrakkala* explicit.
+
+| Malayalam | Mozhi | Unicode Character(s) | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :------------------- | :---------------- | :------------ |
+| ന്         | n\`   | NA, VIRAMA           | അവന്               | avan`         |
+| ന്         | n~    | NA, VIRAMA           | അവന്               | avan~         |
+| നു്         | nu\`  | NA, SIGN U, VIRAMA   | അവനു്               | avanu`        |
+| നു്         | nu~   | NA, SIGN U, VIRAMA   | അവനു്               | avanu~        |
+| ൽമ        | lma   | CHILLU L, MA         | വാൽമീകി              | vaalmeeki     |
+| ല്മ        | l\`ma | LA, VIRAMA, MA       | വാല്മീകി              | vaal`meeki    |
+| മ്അ        | m\`a  | MA, VIRAMA, A        | മ്അദനി              | m`adani       |
+
+Sometimes users type <kbd>\`</kbd> even when it is not required at the word endings. Those <kbd>\`</kbd>s are always consumed.
+
+| Malayalam | Mozhi | Unicode Character(s) | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :------------------- | :---------------- | :------------ |
+| ത്         | th    | A, TA, VIRAMA        | അത്                | ath           |
+| ത്         | th`   | A, TA, VIRAMA        | അത്                | ath`          |
+| ത്         | th~   | A, TA, VIRAMA        | അത്                | ath~          |
+
+## Stand-alone Combining Marks
+
+The *chandrakkala* character <kbd>\`</kbd> (back quote) in the word initial position can be used to get vowel signs without typing a base consonant.
+
+| Malayalam | Mozhi | Unicode Character(s) | Malayalam Example | Mozhi Example |
+| :-------- | :---- | :------------------- | :---------------- | :------------ |
+| ്         | \`    | VIRAMA               |                   |               |
+| ്         | ~     | VIRAMA               |                   |               |
+| ാ         | \`aa  | SIGN AA              | 3-ാം                | 3`aam         |
+| ി         | \`i   | SIGN I               |                   |               |
+
+## Separate Two Words Without Space
+
+Use <kbd>-</kbd> (dash) to start a new sequence out of context from previously typed text. The same effect can be achieved by typing a space instead and then later removing it. This feature is useful for:
+
+- Get *chillu* letter in contexts where it would otherwise form a conjunct with the following consonant. Example: <kbd>n</kbd><kbd>n</kbd><kbd>a</kbd> for `ന്ന` Vs <kbd>n</kbd><kbd>-</kbd><kbd>n</kbd><kbd>a</kbd> for `ൻന`.
+- Get a full vowel in-between a word
+
+If just <kbd>-</kbd> alone is typed, then that will appear to the user and will be consumed only when the next character typed would behave differently if typed without a space before it. All vowel producing letters have above property. Examples:
+
+| Malayalam | Mozhi  | Unicode Character(s)  | Malayalam Example | Mozhi Example |
+| :-------- | :----- | :-------------------- | :---------------- | :------------ |
+| ന്വ        | nva    | NA, VIRAMA, VA        | അന്വയം              | anvayam       |
+| ൻവ        | n-va   | CHILLU N, VA          | പൊൻവില              | pon-vila      |
+| ൻവ        | n_va   | CHILLU N, VA          | പൊൻവില              | pon_vila      |
+| ങ്ക        | nka    | NGA, VIRAMA, KA       | പങ്ക               | panka         |
+| ൻക        | n-ka   | CHILLU N, KA          | ഇൻക               | in-ka         |
+| ൻ-        | n-     | CHILLU N, -           | പൊൻ-               | pon-          |
+| ൻ_        | n_     | CHILLU N, -           | പൊൻ_               | pon_          |
+| ൻ-ഡ       | n-Da   | CHILLU N, -, DDA      | ആൻ-ഡ്              | An-D          |
+| ൾ്ക        | L-\`ka | CHILLU LL, VIRAMA, KA | ൾ്ക                | L-`ka         |
