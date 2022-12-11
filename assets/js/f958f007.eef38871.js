@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmozhi_site=self.webpackChunkmozhi_site||[]).push([[594],{8863:i=>{i.exports=JSON.parse('{"title":"Mapping","slug":"/category/mapping","permalink":"/category/mapping","navigation":{"previous":{"title":"Installation","permalink":"/getting-started/installation"},"next":{"title":"Mapping as Images","permalink":"/mapping/mapping-images"}}}')}}]);
