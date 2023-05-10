@@ -283,7 +283,7 @@ If `മ്യ` and `മ്ര` conjunct are required after `സ`, then please us
 | സമ്യ       | sa-mya | SA, MA, VIRAMA, YA   | സമ്യക്              | sa-myak       |
 | സമ്ര       | sa-mra | SA, MA, VIRAMA, RA   | സമ്രാട്ട്             | sa-mraattt    |
 
-While writing `ൻ്റ` conjunct by <kbd>r</kbd><kbd>t</kbd>.. sequence, <kbd>n</kbd> will produce Chillu-N as follows:
+While writing `ൻ്റ` conjunct by <kbd>n</kbd><kbd>t</kbd>.. sequence, <kbd>n</kbd> will produce Chillu-N as follows:
 
 | Malayalam | Mozhi | Unicode Character(s)  | Malayalam Example | Mozhi Example |
 | :-------- | :---- | :-------------------- | :---------------- | :------------ |
